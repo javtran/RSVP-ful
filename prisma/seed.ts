@@ -32,9 +32,10 @@ async function main() {
       description:
         "A hands-on workshop exploring how to build scalable design systems from scratch. We'll cover tokens, components, and documentation practices used by teams at Figma, Stripe, and Linear.\n\nBring your laptop. Figma account required.",
       location: "Notion HQ, 2300 Harrison St, San Francisco",
-      date: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000), // 3 days from now
+      date: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000),
       capacity: 30,
       isPrivate: false,
+      imageUrl: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&w=800&q=80",
       organizerId: alice.id,
     },
     {
@@ -45,6 +46,7 @@ async function main() {
       date: new Date(Date.now() + 5 * 24 * 60 * 60 * 1000),
       capacity: 20,
       isPrivate: true,
+      imageUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80",
       organizerId: bob.id,
     },
     {
@@ -55,6 +57,7 @@ async function main() {
       date: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
       capacity: 40,
       isPrivate: false,
+      imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80",
       organizerId: cara.id,
     },
     {
@@ -65,6 +68,7 @@ async function main() {
       date: new Date(Date.now() + 10 * 24 * 60 * 60 * 1000),
       capacity: 60,
       isPrivate: false,
+      imageUrl: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80",
       organizerId: alice.id,
     },
     {
@@ -75,6 +79,7 @@ async function main() {
       date: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000),
       capacity: 50,
       isPrivate: false,
+      imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
       organizerId: bob.id,
     },
     {
@@ -85,6 +90,7 @@ async function main() {
       date: new Date(Date.now() + 18 * 24 * 60 * 60 * 1000),
       capacity: 35,
       isPrivate: false,
+      imageUrl: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80",
       organizerId: cara.id,
     },
     {
@@ -95,6 +101,7 @@ async function main() {
       date: new Date(Date.now() + 21 * 24 * 60 * 60 * 1000),
       capacity: 25,
       isPrivate: false,
+      imageUrl: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=800&q=80",
       organizerId: alice.id,
     },
     {
@@ -105,6 +112,7 @@ async function main() {
       date: new Date(Date.now() + 25 * 24 * 60 * 60 * 1000),
       capacity: 45,
       isPrivate: false,
+      imageUrl: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=80",
       organizerId: bob.id,
     },
   ];
