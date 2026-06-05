@@ -1,4 +1,4 @@
-# EventBooking
+# RSVP-ful
 
 A full-stack event management app — create events, RSVP instantly, and get confirmation emails. Built with Next.js 16, Prisma, NextAuth, and Resend.
 

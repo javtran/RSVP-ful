@@ -14,7 +14,7 @@ export function Navbar() {
           <div className="w-8 h-8 bg-stone-900 rounded-lg flex items-center justify-center">
             <CalendarDays className="w-4 h-4 text-white" />
           </div>
-          <span className="font-semibold text-stone-900 tracking-tight">EventBooking</span>
+          <span className="font-semibold text-stone-900 tracking-tight">RSVP-ful</span>
         </Link>
 
         <nav className="flex items-center gap-1">
